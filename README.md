@@ -2,6 +2,7 @@
 ## NOTE BEFORE WE BEGIN
 
 Most desktop environments come with the open source drivers preinstalled.
+
 Also make sure that your sources.list file looks like this
 ```
 # See https://wiki.debian.org/SourcesList for more information.
