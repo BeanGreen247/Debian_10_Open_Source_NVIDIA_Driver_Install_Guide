@@ -2,6 +2,18 @@
 ## NOTE BEFORE WE BEGIN
 
 Most desktop environments come with the open source drivers preinstalled.
+Also make sure that your sources.list file looks like this
+```
+# See https://wiki.debian.org/SourcesList for more information.
+deb http://deb.debian.org/debian buster main contrib
+deb-src http://deb.debian.org/debian buster main contrib
+
+deb http://deb.debian.org/debian buster-updates main contrib
+deb-src http://deb.debian.org/debian buster-updates main contrib
+
+deb http://security.debian.org/debian-security/ buster/updates main contrib
+deb-src http://security.debian.org/debian-security/ buster/updates main contrib
+```
 
 ## The steps 
 
